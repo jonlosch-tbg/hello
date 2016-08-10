@@ -13,6 +13,6 @@ public class HelloController {
 		Package objPackage = this.getClass().getPackage();
 		String version = objPackage.getSpecificationVersion();
 
-		return "Hello - " + version;
+		return "Hello again - " + version;
 	}
 }
